@@ -1,0 +1,121 @@
+
+函数声明、文档化函数 docstring、 一切皆对象、代码缩进（空格主流）、测试模块、
+内置数据类型，数据类型无需声明、 Dictionary, List , Tuple , item   %x  %  var   .format
+参数： 可选参数，命名参数
+内置函数： type , str , dir
+getattr 获取对象引用，
+lambda , and or
+封装类、类熟悉、私有函数
+HTML  locals globals
+User-Agent    重构  处理bug  动态导入模块
+性能优化： timeit模块 正则  字典  列表  字符串
+
+re
+web
+multithreading
+GUI
+Web/CGI
+Python expand
+
+概念 语句 语法 风格  对象 数字类型 序列类型 映射 集合类型 条件 循环 文件输入输出  错误 异常  函数 函数式编程
+模块  面向对象编程  执行环境  正则表达式  网络编程 多线程编程  图形用户界面编程  web编程  数据库编程  python拓展
+
+python 运作机制  开发高效应用程序
+
+语言语法是基础，后续的登堂入室是关键； 选题广泛，例子丰富，解析深入； 语言特性包罗万象的介绍
+
+Zope  Plone  MailMan  Django
+
+开发、管理、维护、整合；连篇累牍、乱人心智
+
+九层之台，起于累土；
+
+开发应用程序，快，高效，1万小时定律；学习程序设计没有捷径，无可替代
+
+序列 -- 字符串、列表、元组 ； 类型对应内建函数、方法、特性
+映射和字典（集合类型）-- 操作符、内建函数、方法（内建方法）
+
+for  while if try except finally range()   break continue pass
+
+标准文件对象的输入、输出  ；  文件系统存取、文件执行和永久存储
+
+编写调用函数比较直观，其他特性：默认参数，"命名"参数，关键词参数、可变长度参数、函数式编程结构、变量范围、递归
+
+高级特性： 生成器、装饰器、内部函数、闭包、偏函数程序 （ currying ）
+
+操作符重载、定制、授权  ； 模式匹配、提取、搜索和替换
+
+面向网络程序 TCP、IP UDP 创建客户端和服务器端  SocketServer
+
+使用套接字来进行网络编程，绝大部分网络协议都是使用套接字开发的
+
+多线程可以提高很多类型程序的执行性能，python多线程程序
+
+图形用户界面编程 -- python图形用户开发模块（Tkinter），基于Tk图形工具集。wxPython
+
+Web编程 -- Web客户端、Web服务器、通用网关接口（CGI）程序，帮助Web服务器传送动态产生的Web界面
+
+简单/高级的Web客户端和CGI程序，如何建立自己的Web服务器
+
+数据库编程 ： 简单、有趣  API 程序接口
+
+代码复用和语言扩展的强大性；C、C++、Java来开发底层代码；无缝的python接口（提高性能和安全性）
+
+list : append pop insert
+turple :
+set : add remove
+{'key1':'value1','key2':'value2'}   {...}.get()  {...}.keys()  {...}.values()  {...}.items()
+len({...})    {...}['key1']
+
+= == != is is not
+for item in seq:
+    if expression:
+        continue
+    elif expression:
+        ...
+    else :
+        break
+# flow control
+while expression :
+    if xxx:
+        ...
+# function
+
+def foo():
+    return xx
+def foo(bar):
+    return bar
+def foo(bar,baz='xxx'):
+    return (bar,baz)
+def foo(*args,**kwargs):
+    return (args,kwargs)
+
+@bar
+def foo():
+    return xxx
+@baz('yyy')
+def xxx():
+    return kkk
+# class  docstrings
+class Foo(object):
+    "class have docstrings "
+    def __init__(self,bar):
+        self.bar_attr = bar
+        "functions methods "
+# Exceptions
+try:
+    raise Exception("OH ...")
+except:
+    log_error()
+    raise
+
+else:
+    do_some_more()
+
+finally:
+    clean_up()
+
+dir(module)
+help(module)
+
+#  Generators  List Set Dictionary Properties  Class Decorators  Abstract Base Classes Metaclasses
